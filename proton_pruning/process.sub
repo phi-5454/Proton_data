@@ -1,0 +1,16 @@
+executable            = run.sh
+arguments             = $(input_dir) 
+#output                = ../output/$(input_dir).out
+#error                 = ../error/$(input_dir).err
+
+output                = output/$(ProcId).out
+error                 = error/$(ProcId).err
+
+log                   = log/$(ProcId)_condor.log
+
+transfer_input_files  = build/proton_pruning
+#+PreCmd               = "prepare_slc6.sh"
+
+RequestCpus = 12
+
+queue input_dir from TOTEM21.txt

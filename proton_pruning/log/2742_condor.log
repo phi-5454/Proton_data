@@ -1,0 +1,249 @@
+000 (10252905.2742.000) 07/24 16:13:19 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+009 (10252905.2742.000) 07/24 16:14:49 Job was aborted.
+	via condor_rm (by user yelberke)
+...
+000 (10252906.2742.000) 07/24 16:15:38 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+000 (10252907.2742.000) 07/24 16:17:32 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+000 (10252908.2742.000) 07/24 16:18:05 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+000 (10252909.2742.000) 07/24 16:18:41 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+040 (10252906.2742.000) 07/24 16:36:14 Started transferring input files
+	Transferring to host: <188.185.192.41:9618?addrs=188.185.192.41-9618+[2001-1458-303-1f--100-25]-9618&alias=b9p13p1507.cern.ch&noUDP&sock=slot1_14_8455_0ff1_440>
+...
+040 (10252906.2742.000) 07/24 16:36:14 Finished transferring input files
+...
+001 (10252906.2742.000) 07/24 16:36:15 Job executing on host: <188.185.192.41:9618?addrs=188.185.192.41-9618+[2001-1458-303-1f--100-25]-9618&alias=b9p13p1507.cern.ch&noUDP&sock=startd_8410_2393>
+	SlotName: slot1_14@b9p13p1507.cern.ch
+	CondorScratchDir = "/pool/condor/dir_159580"
+	Cpus = 8
+	Disk = 2889606
+	Memory = 16000
+...
+006 (10252906.2742.000) 07/24 16:36:21 Image size of job updated: 159836
+	8  -  MemoryUsage of job (MB)
+	7440  -  ResidentSetSize of job (KB)
+...
+040 (10252906.2742.000) 07/24 16:36:21 Started transferring output files
+...
+040 (10252906.2742.000) 07/24 16:36:21 Finished transferring output files
+...
+005 (10252906.2742.000) 07/24 16:36:21 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:05, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:05, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6204  -  Run Bytes Sent By Job
+	409597  -  Run Bytes Received By Job
+	6204  -  Total Bytes Sent By Job
+	409597  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        8         8 
+	   Disk (KB)            :      428      425   2889606 
+	   Memory (MB)          :        8    16000     16000 
+
+	Job terminated of its own accord at 2024-07-24T14:36:21Z with exit-code 0.
+...
+040 (10252907.2742.000) 07/24 18:04:11 Started transferring input files
+	Transferring to host: <188.185.207.192:9618?addrs=188.185.207.192-9618+[2001-1458-303-e--100-3d]-9618&alias=b9p08p9609.cern.ch&noUDP&sock=slot1_6_4004722_aedc_46820>
+...
+040 (10252907.2742.000) 07/24 18:04:11 Finished transferring input files
+...
+001 (10252907.2742.000) 07/24 18:04:12 Job executing on host: <188.185.207.192:9618?addrs=188.185.207.192-9618+[2001-1458-303-e--100-3d]-9618&alias=b9p08p9609.cern.ch&noUDP&sock=startd_4289_79c9>
+	SlotName: slot1_6@b9p08p9609.cern.ch
+	CondorScratchDir = "/pool/condor/dir_1482366"
+	Cpus = 8
+	Disk = 2882044
+	Memory = 16000
+...
+006 (10252907.2742.000) 07/24 18:04:17 Image size of job updated: 160996
+	9  -  MemoryUsage of job (MB)
+	8328  -  ResidentSetSize of job (KB)
+...
+040 (10252907.2742.000) 07/24 18:04:17 Started transferring output files
+...
+040 (10252907.2742.000) 07/24 18:04:17 Finished transferring output files
+...
+005 (10252907.2742.000) 07/24 18:04:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6204  -  Run Bytes Sent By Job
+	409597  -  Run Bytes Received By Job
+	6204  -  Total Bytes Sent By Job
+	409597  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        8         8 
+	   Disk (KB)            :      428      425   2882044 
+	   Memory (MB)          :        9    16000     16000 
+
+	Job terminated of its own accord at 2024-07-24T16:04:17Z with exit-code 0.
+...
+040 (10252908.2742.000) 07/24 19:11:56 Started transferring input files
+	Transferring to host: <188.185.208.190:9618?addrs=188.185.208.190-9618+[2001-1458-303-10--100-3b]-9618&alias=b9p10p8400.cern.ch&noUDP&sock=slot1_11_8610_4617_143117>
+...
+040 (10252908.2742.000) 07/24 19:11:56 Finished transferring input files
+...
+001 (10252908.2742.000) 07/24 19:11:57 Job executing on host: <188.185.208.190:9618?addrs=188.185.208.190-9618+[2001-1458-303-10--100-3b]-9618&alias=b9p10p8400.cern.ch&noUDP&sock=startd_6643_1fba>
+	SlotName: slot1_11@b9p10p8400.cern.ch
+	CondorScratchDir = "/pool/condor/dir_2061669"
+	Cpus = 8
+	Disk = 2758048
+	Memory = 16000
+...
+006 (10252908.2742.000) 07/24 19:12:01 Image size of job updated: 159652
+	8  -  MemoryUsage of job (MB)
+	7380  -  ResidentSetSize of job (KB)
+...
+040 (10252908.2742.000) 07/24 19:12:01 Started transferring output files
+...
+040 (10252908.2742.000) 07/24 19:12:01 Finished transferring output files
+...
+005 (10252908.2742.000) 07/24 19:12:01 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6204  -  Run Bytes Sent By Job
+	409597  -  Run Bytes Received By Job
+	6204  -  Total Bytes Sent By Job
+	409597  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        8         8 
+	   Disk (KB)            :      427      425   2758048 
+	   Memory (MB)          :        8    16000     16000 
+
+	Job terminated of its own accord at 2024-07-24T17:12:01Z with exit-code 0.
+...
+040 (10252909.2742.000) 07/24 20:11:20 Started transferring input files
+	Transferring to host: <188.185.204.176:9618?addrs=188.185.204.176-9618+[2001-1458-303-8--100-a4]-9618&alias=b9p02p2870.cern.ch&noUDP&sock=slot1_18_7028_9c97_157277>
+...
+040 (10252909.2742.000) 07/24 20:11:20 Finished transferring input files
+...
+001 (10252909.2742.000) 07/24 20:11:21 Job executing on host: <188.185.204.176:9618?addrs=188.185.204.176-9618+[2001-1458-303-8--100-a4]-9618&alias=b9p02p2870.cern.ch&noUDP&sock=startd_6868_7489>
+	SlotName: slot1_18@b9p02p2870.cern.ch
+	CondorScratchDir = "/pool/condor/dir_3400336"
+	Cpus = 8
+	Disk = 2825077
+	Memory = 16000
+...
+006 (10252909.2742.000) 07/24 20:11:25 Image size of job updated: 158444
+	8  -  MemoryUsage of job (MB)
+	7540  -  ResidentSetSize of job (KB)
+...
+040 (10252909.2742.000) 07/24 20:11:25 Started transferring output files
+...
+040 (10252909.2742.000) 07/24 20:11:25 Finished transferring output files
+...
+005 (10252909.2742.000) 07/24 20:11:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6204  -  Run Bytes Sent By Job
+	409597  -  Run Bytes Received By Job
+	6204  -  Total Bytes Sent By Job
+	409597  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        8         8 
+	   Disk (KB)            :      428      425   2825077 
+	   Memory (MB)          :        8    16000     16000 
+
+	Job terminated of its own accord at 2024-07-24T18:11:25Z with exit-code 0.
+...
+000 (10261715.2742.000) 07/25 13:02:35 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+009 (10261715.2742.000) 07/25 13:06:53 Job was aborted.
+	via condor_rm (by user yelberke)
+...
+000 (10261767.2742.000) 07/25 13:20:32 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+040 (10261767.2742.000) 07/25 14:32:54 Started transferring input files
+	Transferring to host: <188.185.206.99:9618?addrs=188.185.206.99-9618+[2001-1458-303-b--100-60]-9618&alias=b9p05p7418.cern.ch&noUDP&sock=slot1_2_3727_c231_80732>
+...
+040 (10261767.2742.000) 07/25 14:32:54 Finished transferring input files
+...
+001 (10261767.2742.000) 07/25 14:32:55 Job executing on host: <188.185.206.99:9618?addrs=188.185.206.99-9618+[2001-1458-303-b--100-60]-9618&alias=b9p05p7418.cern.ch&noUDP&sock=startd_3369_6ea8>
+	SlotName: slot1_2@b9p05p7418.cern.ch
+	CondorScratchDir = "/pool/condor/dir_3578578"
+	Cpus = 12
+	Disk = 2712748
+	Memory = 24000
+...
+006 (10261767.2742.000) 07/25 14:33:00 Image size of job updated: 160684
+	7  -  MemoryUsage of job (MB)
+	6948  -  ResidentSetSize of job (KB)
+...
+040 (10261767.2742.000) 07/25 14:33:00 Started transferring output files
+...
+040 (10261767.2742.000) 07/25 14:33:00 Finished transferring output files
+...
+005 (10261767.2742.000) 07/25 14:33:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:03, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	6676  -  Run Bytes Sent By Job
+	409597  -  Run Bytes Received By Job
+	6676  -  Total Bytes Sent By Job
+	409597  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0       12        12 
+	   Disk (KB)            :      431      425   2712748 
+	   Memory (MB)          :        7    24000     24000 
+
+	Job terminated of its own accord at 2024-07-25T12:33:00Z with exit-code 0.
+...
+000 (10284266.2742.000) 08/02 15:46:22 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+000 (10284267.2742.000) 08/02 15:49:57 Job submitted from host: <188.185.114.121:9618?addrs=188.185.114.121-9618+[2001-1458-d00-a--100-273]-9618&alias=bigbird19.cern.ch&noUDP&sock=schedd_4961_696e>
+...
+009 (10284266.2742.000) 08/02 15:50:23 Job was aborted.
+	via condor_rm (by user yelberke)
+...
+040 (10284267.2742.000) 08/02 16:44:38 Started transferring input files
+	Transferring to host: <188.185.192.137:9618?addrs=188.185.192.137-9618+[2001-1458-303-1f--100-85]-9618&alias=b9p13p3671.cern.ch&noUDP&sock=slot1_13_277198_d141_320>
+...
+040 (10284267.2742.000) 08/02 16:44:38 Finished transferring input files
+...
+001 (10284267.2742.000) 08/02 16:44:39 Job executing on host: <188.185.192.137:9618?addrs=188.185.192.137-9618+[2001-1458-303-1f--100-85]-9618&alias=b9p13p3671.cern.ch&noUDP&sock=startd_166910_f49b>
+	SlotName: slot1_13@b9p13p3671.cern.ch
+	CondorScratchDir = "/pool/condor/dir_610098"
+	Cpus = 12
+	Disk = 3073817
+	Memory = 24000
+...
+006 (10284267.2742.000) 08/02 16:44:40 Image size of job updated: 317048
+	5  -  MemoryUsage of job (MB)
+	4180  -  ResidentSetSize of job (KB)
+...
+040 (10284267.2742.000) 08/02 16:44:40 Started transferring output files
+...
+040 (10284267.2742.000) 08/02 16:44:41 Finished transferring output files
+...
+005 (10284267.2742.000) 08/02 16:44:41 Job terminated.
+	(1) Normal termination (return value 139)
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	7696  -  Run Bytes Sent By Job
+	409597  -  Run Bytes Received By Job
+	7696  -  Total Bytes Sent By Job
+	409597  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0       12        12 
+	   Disk (KB)            :      428      425   3073817 
+	   Memory (MB)          :        5    24000     24000 
+
+	Job terminated of its own accord at 2024-08-02T14:44:40Z with exit-code 139.
+...
