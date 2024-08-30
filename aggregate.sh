@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Argument 1: workspace name
-# Argument 2: analysis name
+# Argument 1: analysis name
+# Argument 2: workspace directory
 
-srce="$1/$2/grafted"
-tgt="$1/$2/final"
+srce="$2/$1/combined_indiv"
+tgt="$2/$1/final"
 mkdir -p $tgt
 
 #hadd -f -j 10 $tgt $srce/*/*

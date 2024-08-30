@@ -1,4 +1,4 @@
-executable            = run_indiv.sh
+executable            = prune_combine.sh
 arguments             = $(workspace)/$(ntanalysisname)/ntuplized/$(input_file) $(workspace)/$(pranalysisname)/$(intermediate_prot)/$(input_file) $(workspace)/$(ntanalysisname)/protons_pruned/$(input_file) $(wdir)
 #output                = ../output/$(input_dir).out
 #error                 = ../error/$(input_dir).err

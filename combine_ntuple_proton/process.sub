@@ -1,0 +1,16 @@
+executable            = run.sh
+arguments             = $(workspace)/$(ntanalysisname)/ntuplized/$(input_file) $(workspace)/$(pranalysisname)/intermediate_prot/$(input_file) $(workspace)/$(ntanalysisname)/combined_indiv/$(input_file)
+#output                = ../output/$(input_dir).out
+#error                 = ../error/$(input_dir).err
+
+output                = output/$(ProcId).out
+error                 = error/$(ProcId).err
+
+log                   = log/$(ProcId)_condor.log
+
+transfer_input_files  = build/combine_ntuple_proton
+
+RequestCpus = 14
+#RequestMemory = 40000MB
+
+queue input_file from $(filelist)

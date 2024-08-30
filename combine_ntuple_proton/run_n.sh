@@ -8,3 +8,4 @@
 for arg in TOTEM21; do
 	./run.sh /home/younes/totemdata/v1.2/"$arg".root /home/younes/totemdata/improved_protons_v1/"$arg".root  /home/younes/totemdata/combined/"$arg".root
 done
+

@@ -73,6 +73,8 @@ int main(int argc, char *argv[]) {
   // Join the two!
 
   // Extract the TTrees from the RDataFrame
+  // *VERY* dumb, but it works, provided you do this sequentially, or
+  // individually.
   prot_ff.Snapshot("tree_prot", "memfile.root");
   TFile memFile("memfile.root");
   TTree *protons_filtered = (TTree *)memFile.Get("tree_prot");
