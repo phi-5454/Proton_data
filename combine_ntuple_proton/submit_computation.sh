@@ -13,6 +13,10 @@
 
 #workingdir="$(pwd)"
 
+# FIRST argument Name of the ntuple analysis
+# SECOND argument Name of the proton analysis
+# THIRD argument Path to the workspace
+
 for filename in TOTEM20 TOTEM21 TOTEM22 TOTEM23 TOTEM40 TOTEM41 TOTEM42 TOTEM43; do
 #for filename in TOTEM43; do
 	condor_submit -append "filelist=$filename.txt" -append "ntanalysisname=$1" -append "pranalysisname=$2" -append "workspace=$3" process.sub 
